@@ -98,7 +98,7 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>prema nexus Releases Nexus Repository</name>
+	      <name>prema nexus Releases Nexus Repository...</name>
 	      <url>http://18.116.240.184:9980/premanexus/repository/walmart-release/</url>
 	    </repository>
 	    
