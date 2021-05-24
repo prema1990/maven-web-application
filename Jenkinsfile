@@ -14,6 +14,8 @@ stage('build')
 sh "${mvnhome}/bin/mvn clean package"
 
 }
+  
+/*  
 stage('executesqreport')
 {
 sh "${mvnhome}/bin/mvn sonar:sonar"
@@ -32,6 +34,7 @@ sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@3.
 }
 }
 
+*/
 stage('sendemailnotification')
 {
 emailext body: '''buildover
